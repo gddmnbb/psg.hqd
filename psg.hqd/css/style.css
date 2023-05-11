@@ -1,0 +1,767 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title_us {
+    font-family: "Nexa";
+    font-size: 70px;
+    line-height: 66px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #25234d;
+    max-width: 545px;
+    margin-bottom: 40px;
+}
+
+.text__about__us {
+    opacity: 0.81;
+    font-family: "Nexa";
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #25234d;
+    max-width: 533px;
+    margin-bottom: 44px;
+}
+
+.learn__btn {
+    font-family: "Nexa";
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #171718;
+    /* back */
+    padding: 26px 73px 26px 73px;
+    background-color: #ffc727;
+    border-radius: 50px;
+}
+
+.wrapp_cont__about__us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__us_img {
+    position: relative;
+}
+
+.about__us_img::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+.our__service {
+    padding-top: 100px;
+    width: 100%;
+    background: url(../img/layer201460.png) no-repeat center/cover;
+}
+
+.block_ont_serv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sup__title_our {
+    font-family: Nexa;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #6422db;
+    margin-bottom: 38px;
+}
+
+.title__serv__our {
+    font-family: "Nexa";
+    font-size: 70px;
+    line-height: 66px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #25234d;
+    max-width: 533px;
+    margin-bottom: 40px;
+}
+
+.text__our {
+    opacity: 0.81;
+    font-family: Nexa;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #25234d;
+    max-width: 530px;
+    margin-bottom: 40px;
+}
+
+.learn_our_btn {
+    font-family: Nexa;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #171718;
+    /* back */
+    padding: 26px 73px 26px 73px;
+    background-color: #ffc727;
+    border-radius: 50px;
+}
+
+.card_our_serv {
+    width: 301px;
+    height: 346px;
+    background-color: #ffffff;
+    box-shadow: 0px 30px 70px 0px rgba(223, 227, 234, 0.5);
+    border-radius: 10px;
+    margin-bottom: 39px;
+}
+
+.card_our_serv:last-child {
+    margin-bottom: 0;
+}
+
+.title_card {
+    opacity: 0.78;
+    font-family: Nexa;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #25234d;
+    padding-top: 23px;
+    padding-left: 29px;
+}
+
+.text_card {
+    opacity: 0.81;
+    font-family: Nexa;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #25234d;
+    max-width: 280px;
+    width: 100%;
+    padding-top: 13px;
+    padding-left: 29px;
+}
+
+.icon_card {
+    padding-top: 53px;
+    padding-left: 29px;
+}
+
+.block__card__our {
+    display: flex;
+    gap: 0px 50px;
+}
+
+.card_down_two {
+    margin-top: 50px;
+}
+
+.testimonial {
+    position: relative;
+    margin-top: 127px;
+    background: url(../img/shape_back.png) no-repeat center/cover #fcfcff;
+    z-index: 1;
+}
+
+.testimonial::after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    left: 0;
+    width: 97px;
+    height: 140px;
+    background: url(../img/ovalcopy625.png) no-repeat center/cover;
+}
+
+.wrapp_cont_say {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.people_bg {
+    position: relative;
+}
+
+.people_bg::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    background: url(../img/layers8.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.people_bg::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    background: url(../img/layers4446.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.block_say__people {
+    padding-top: 120px;
+}
+
+.sup__title_say {
+    font-family: "Nexa";
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+
+.title_say {
+    font-family: "Nexa";
+    font-size: 70px;
+    line-height: 66px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+}
+
+.card_say_peop {
+    margin-top: 84px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 30px 70px 0px rgba(103, 48, 226, 0.5);
+    padding: 80px 90px 40px 90px;
+    z-index: 1;
+}
+
+.block_say__people_two {
+    position: absolute;
+    top: 780px;
+    left: 375px;
+    width: 680px;
+    background-color: #7542e3;
+    box-shadow: 0px 30px 70px 0px rgba(103, 48, 226, 0.5);
+    height: 40px;
+    border-radius: 0px 0px 10px 10px;
+    z-index: -2;
+}
+
+.block_say__people_free {
+    position: absolute;
+    top: 750px;
+    left: 365px;
+    width: 710px;
+    background-color: #9a76ec;
+    box-shadow: 0px 30px 70px 0px rgba(103, 48, 226, 0.5);
+    height: 40px;
+    border-radius: 0px 0px 10px 10px;
+    z-index: -1;
+}
+
+.wrapp__card_bg-shadow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_card__say {
+    font-family: Nexa;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #6a697f;
+    line-height: 46px;
+    max-width: 551px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.name__user {
+    font-family: "Nexa";
+    font-size: 24px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #6427de;
+    margin-bottom: 14px;
+}
+
+.star_item {
+    display: flex;
+    background: url(../img/star1144.png) no-repeat center;
+    width: 145px;
+    height: 20px;
+    margin: auto;
+}
+
+.block__btn__arrrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.link__left {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #6a697f;
+    border-radius: 50px;
+    background: url(../img/arrow149.png) no-repeat center;
+    margin-right: 20px;
+}
+
+.link__right {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: url(../img/arrow148.png) no-repeat center #00dadc;
+    border-radius: 50px;
+}
+
+
+/* contact_us */
+
+.contac__us {
+    background: #fcfcff;
+    padding-top: 100px;
+    margin-bottom: 150px;
+}
+
+.wrapp_block_ifo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cpntact_us_sup__title {
+    font-family: "Nexa";
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #6422db;
+    margin-bottom: 38px;
+}
+
+.title_contact_us {
+    font-family: "Nexa";
+    font-size: 70px;
+    line-height: 66px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #25234d;
+    max-width: 528px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.text_sub_title_contact_us {
+    opacity: 0.81;
+    font-family: Nexa;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #25234d;
+    max-width: 541px;
+    width: 100%;
+}
+
+.form__wrapp {
+    background: #ffffff;
+    box-shadow: 1px 1px 8px 5px rgba(111, 123, 159, 0.2);
+    width: 600px;
+    height: 620px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.form__wrapp::after {
+    position: absolute;
+    content: "";
+    top: -90px;
+    left: 550px;
+    width: 140px;
+    height: 140px;
+    background: url(../img/ovalcopy21626.png);
+}
+
+.name {
+    width: 475px;
+    height: 78px;
+    border: 1px solid #d3d3d9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.full_name {
+    position: absolute;
+    width: 103px;
+    height: 28px;
+    background: #ffffff;
+    top: 67px;
+    left: 34px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text */
+    font-family: "Nexa";
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6e6e6e;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../font/gilroy-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../font/gilroy-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../font/gilroy-bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Nexa";
+    src: url(../font/nexalight.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Nexa";
+    src: url(../font/nexabold.ttf);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+.wrapp_bg_header {
+    background: url(../img/layers.png) no-repeat center/cover;
+    padding-bottom: 500px;
+}
+
+.link__logo {
+    font-family: Gilroy;
+    font-size: 44.8px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    margin-right: 110px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.links__nav {
+    font-family: Nexa;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+.links__nav:last-child {
+    margin-right: 0;
+}
+
+.contacy__btn {
+    font-family: "Nexa";
+    font-size: 16.8px;
+    line-height: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6426dd;
+    /* back */
+    width: 165px;
+    height: 60px;
+    background-color: #ffffff;
+    padding: 23px 42px 23px 42px;
+    border-radius: 50px;
+}
+
+.nav {
+    padding-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__promo {
+    font-family: "Nexa";
+    font-size: 87.9px;
+    line-height: 79px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    max-width: 585px;
+    margin-bottom: 28px;
+}
+
+.text__promo {
+    opacity: 0.8;
+    font-family: Nexa;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 532px;
+    margin-bottom: 48px;
+}
+
+.btn__promo {
+    font-family: Nexa;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #171718;
+    /* back */
+    width: 270px;
+    height: 68px;
+    background-color: #00dadc;
+    border-radius: 50px;
+    padding: 26px 71px 26px 71px;
+}
+
+.promo_block {
+    padding-top: 232px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.block__img {
+    position: absolute;
+    top: 55px;
+    left: 600px;
+    background: url(../img/people2.png) no-repeat center;
+    width: 1020px;
+    height: 890px;
+}
+
+.sup__title {
+    font-family: "Nexa";
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #6422db;
+    margin-bottom: 39px;
+}
+
+.email {
+    width: 475px;
+    height: 78px;
+    margin-bottom: 20px;
+    border: 1px solid #d3d3d9;
+    border-radius: 5px;
+    padding-left: 46px;
+}
+
+.mess {
+    width: 475px;
+    padding-left: 46px;
+    border: 1px solid #d3d3d9;
+    border-radius: 5px;
+    padding-top: 29px;
+    padding-bottom: 149px;
+}
+
+.contact_us_form {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.name::placeholder {
+    font-family: "Nexa";
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6422db;
+}
+
+.email::placeholder {
+    opacity: 0.7;
+    font-family: "Nexa";
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6e6e6e;
+}
+
+.mess::placeholder {
+    opacity: 0.7;
+    font-family: "Nexa";
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6e6e6e;
+}
+
+.submit__fomr {
+    width: 270px;
+    height: 68px;
+    background-color: #ffc727;
+    border-radius: 50px;
+    /* text */
+    font-family: Nexa;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #171718;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer {
+    padding-top: 200px;
+    background: url(../img/shape17copy1466.png) no-repeat center/cover;
+}
+
+.social__block {
+    display: flex;
+    gap: 0px 10px;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.face {
+    background: url(../img/you.png) no-repeat center #00dadc;
+    width: 41px;
+    height: 42px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face {
+    background: url(../img/you.png) no-repeat center #6f7dfd;
+    width: 41px;
+    height: 42px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.you {
+    background: url(../img/face.png) no-repeat center #6f7dfd;
+    width: 41px;
+    height: 42px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twit {
+    background: url(../img/twit.png) no-repeat center #6f7dfd;
+    width: 41px;
+    height: 42px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in {
+    background: url(../img/in.png) no-repeat center #6f7dfd;
+    width: 41px;
+    height: 42px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soc__link {
+    transition: 0.5s;
+}
+
+.soc__link:hover {
+    background-color: #00dadc;
+}
+
+.copy {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Nexa";
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #f7fbff;
+}
